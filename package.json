@@ -1,0 +1,25 @@
+{
+  "name": "KennenFatrabbit",
+  "version": "1.0.0",
+  "description": "KennenFatrabbit isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khsieh/KennenFatrabbit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khsieh/KennenFatrabbit/issues"
+  },
+  "homepage": "https://github.com/khsieh/KennenFatrabbit#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "twit": "^2.2.11"
+  }
+}
