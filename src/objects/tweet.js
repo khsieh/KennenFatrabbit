@@ -1,4 +1,3 @@
-
 class Tweet {
     constructor(tweet) {
         this.tweet = tweet;
