@@ -1,15 +1,15 @@
 const Twit = require('twit');
-const config = require('./config');
-const Tweets = require('./objects/tweets');
+const config = require('./../config/config');
+const Tweets = require('./dtos/tweets');
 
 const bot = new Twit(config);
 
 // CMD LINE ARGS READ
 var cmdLinesArgs = process.argv;
 if (cmdLinesArgs.length < 3)
-  console.log('Pls use cmd line arg to run a function');
+  console.log('Pls use cmd line arg to run a twitter function');
 
-// main()
+/** main controller function */
 switch (cmdLinesArgs[2]) {
   case 'post':
     post();
@@ -20,10 +20,10 @@ switch (cmdLinesArgs[2]) {
   case undefined:
     break;
   default:
-    console.log(cmdLinesArgs[2] + ' is not implemented yet D:');
+    console.log('[' + cmdLinesArgs[2] + '] is not implemented yet D:');
 }
 
-// twitter functions
+/** Twitter functions */
 function post() {
   if (!cmdLinesArgs[3]) {
     console.log('Pls put post content as 4th arg')

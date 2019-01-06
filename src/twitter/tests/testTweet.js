@@ -1,4 +1,4 @@
-const Tweet = require('./../objects/tweet');
+const Tweet = require('./../dtos/tweet');
 const testData = require('./data/retweetArray');
 
 

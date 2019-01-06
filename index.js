@@ -1,1 +1,1 @@
-require('./src/bot');
+console.log("NOT IMPLEMENTED YET :D \nlook at subdirs for each index.js for riot || twitter")
