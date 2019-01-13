@@ -1,4 +1,4 @@
-const Tweet = require('./../objects/tweet');
+const Tweet = require('./../dtos/tweet');
 
 class Tweets {
     constructor(tweets) {
